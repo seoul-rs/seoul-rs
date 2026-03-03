@@ -27,7 +27,7 @@ jobs:
 
       - name: install just
         run: |
-          apt install just
+          curl -sSfL https://just.systems/install.sh | bash -s -- --to /usr/local/bin
 
       - name: prebuild
         run: |
