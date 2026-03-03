@@ -61,7 +61,7 @@ language_switcher = true
 hide_made_with_line = true
 translations = [
   { code = "en", name = "English" },
-  { code = "ko", name = "Korean" },
+  { code = "ko", name = "한국어" },
 ]
 
 
