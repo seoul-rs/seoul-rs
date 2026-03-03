@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = "2026-03-02"
-author = "seungjin"
+authors = ["seungjin"]
 +++
 
 Soruce:  
