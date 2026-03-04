@@ -14,6 +14,9 @@ fn main() {
 
 ---
 
+seoul.rs는 Zola (Static Site Generator)로 작성되었으며 GitHub Pages에 호스팅되어 있습니다.  
+누구나 GitHub의 Pull Request를 통해 글을 작성하고 기여할 수 있습니다.  
+
 seoul.rs 소스코드
 [https://github.com/seoul-rs/seoul-rs](https://github.com/seoul-rs/seoul-rs)
 

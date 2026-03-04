@@ -13,6 +13,9 @@ Seoul Rust users on/off gatherings
 
 ---
 
+seoul.rs is written with the Zola static site generator and hosted on GitHub Pages.
+Anyone can write and contribute through GitHub pull requests.
+
 Soruce:  
 [https://github.com/seoul-rs/seoul-rs](https://github.com/seoul-rs/seoul-rs)
 
