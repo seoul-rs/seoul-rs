@@ -29,4 +29,3 @@ tags = ["howto"]
 Pull Request를 생성할 때에는 본인의 암호화 키로 서명된 커밋만 허용하며, GitHub에 등록된 본인키로 검증(Verified)된 커밋만 병합하고 있습니다. GitHub 계정을 사용하지 않으시는 경우에는, 본인 GPG키로 서명된 패치 파일을 보내주시기 바랍니다.
 
 SSG(정적 사이트 생성기)에 대한 보다 자세한 정보는 [zola](https://getzola.org)를 참고해 주시기 바랍니다
-
