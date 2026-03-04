@@ -1,6 +1,6 @@
 +++
 title = "seoul.rs에 글써보기"
-date = "2026-03-31"
+date = "2026-03-04"
 [taxonomies]
 authors = ["Seungjin Kim"]
 tags = ["howto"]
@@ -14,7 +14,7 @@ seoul.rs는 [zola](https://getzola.org)라는 Rust로 작성된 SSG(Static Site 
 +++
 draft = true
 title = "seoul.rs에 글써보기"
-date = "2026-03-31"
+date = "2026-03-04"
 [taxonomies]
 authors = ["Seungjin Kim"]
 tags = ["howto"]
