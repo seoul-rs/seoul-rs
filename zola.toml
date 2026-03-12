@@ -81,5 +81,5 @@ url = "@/news/_index.md"
 
 [[extra.main_menu]]
 name = "Blog"
-name_ko = "블러그"
+name_ko = "블로그"
 url = "@/blog/_index.md"
