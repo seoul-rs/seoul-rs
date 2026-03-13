@@ -1,6 +1,6 @@
 +++
 title = "Monthly Seoul Rust Meetup at March 19, 2026"
-date = "2026-03-02"
+date = "2026-03-13"
 [taxonomies]
 authors = ["Seungjin Kim"]
 tags = ["event"]
