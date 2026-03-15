@@ -6,11 +6,11 @@ authors = ["Seungjin Kim"]
 tags = ["wasm", "rust"]
 +++
 
-## 1. WASM file 만들어 보기
+## 1. 무작정 WASM file 만들어 보기
 
 거두절미하고 직접 WASM 파일을 만들어 보자.
 
-### 1. 현재 설치된 Rust 컴파일러가 WASM을 빌드할 수 있는지 확인해야 한다.
+### 1. Rust 컴파일러 WASM 빌드 지원 확인
   ```shell
         ❯ rustc --print target-list | grep wasm
         wasm32-unknown-emscripten

@@ -7,13 +7,11 @@ authors = ["Seungjin Kim"]
 tags = ["wasm", "rust"]
 +++
 
-# 2. WASM이 모에요?
+## 1. Brief History of Wasm
 
-## 2.1 WASM의 등장
+## 2. Wasm environment(or runtime) for your browser
 
-## 2.2 WASI - 브라우저 밖으로 나온 WASM
-
-## 2.3 Wasm environment(or runtime) for your system(OS or Machine)
+## 3. Wasm environment(or runtime) for your system(OS or Machine)
 
 
 
