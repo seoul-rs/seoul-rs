@@ -1,5 +1,5 @@
 +++
-title = "The Little Rust & Wasm Guidebook (1)"
+title = "Build your first WASM"
 date = "2026-03-15"
 [taxonomies]
 authors = ["Seungjin Kim"]
