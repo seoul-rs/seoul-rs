@@ -1,6 +1,6 @@
 +++
 draft = true
-title = "The Little Rust & Wasm Guidebook (2)"
+title = "[WIP][LRW] 2. What is WASM?"
 date = "2026-03-16"
 [taxonomies]
 authors = ["Seungjin Kim"]

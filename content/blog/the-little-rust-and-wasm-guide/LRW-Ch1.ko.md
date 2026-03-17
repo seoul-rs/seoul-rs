@@ -73,8 +73,7 @@ tags = ["wasm", "rust"]
   crate-type = ["cdylib"]
   ```
 
-  
-  완성된 Cargo.toml
+  완성된 Cargo.toml {{ anchor(id="cargo_toml") }}
   ```toml
   [package]
   name = "hello-world"
@@ -87,9 +86,8 @@ tags = ["wasm", "rust"]
   [dependencies]
   ```
   
-  
-
-  아래와 같이 `src/lib.rs`를 작성한다.  
+  아래와 같이 `src/lib.rs`를 작성한다.
+  {{ anchor(id="code_hello_world") }}
   ```rust
   pub fn hello_world() -> &'static str' {
     "Hello World"

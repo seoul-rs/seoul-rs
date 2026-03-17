@@ -6,9 +6,9 @@ authors = ["Seungjin Kim"]
 tags = ["wasm", "rust"]
 +++
 
-## 1. Code First
-
-A wise man once said, ‘Talk is cheap. Show me the code.’ Now let’s make your WASM file first.
+**Code First.**  
+A wise man once said, *‘Talk is cheap. Show me the code.’*  
+Keep Calm and Code On.  
 
 ### 1. Check your Rust compiler can handle WASM build
   ```shell
@@ -24,29 +24,28 @@ A wise man once said, ‘Talk is cheap. Show me the code.’ Now let’s make yo
         wasm64-unknown-unknown
   ```
 
-  만약 목록에서 `wasm32-unknown-unknown` 항목이 보이지 않는다면, 이는 아직 WASM 파일을 컴파일할 준비가 되지 않았음을 의미한다.
+  If you don't see the wasm32-unknown-unknown entry in the list, it means you aren't ready to compile WASM files yet.
 
   ```text
-    `wasm32-unknown-unkown`의 의미
-    wasm32: 대상 CPU 아키텍처가 32비트 WebAssembly임을 의미한다.
-    unknown (Vendor): 이 바이너리를 제조하거나 배포하는 특정 벤더(제조사)가 정의되지 않았음을 뜻한다.
-    unknown (OS/ABI): 대상 운영체제나 시스템 인터페이스(ABI)가 정의되지 않았음을 뜻한다.
-    종합하면, 특정 운영체제나 하드웨어 제약 없이 어디서든 실행 가능한 순수한 32비트 WebAssembly 바이너리를 의미한다.
+    wasm32-unknown-unkown means  
+    wasm32: Indicates that the target CPU architecture is 32-bit WebAssembly.  
+    unknown(Vendor): Signifies that no specific vendor (manufacturer) is defined for producing or distributing this binary.
+    unknown(OS/ABI): Signifies that the target operating system or System Interface(ABI) is not defined.  
+    Taken together, it refers to a "pure" 32-bit WebAssembly binary that can run anywhere, free from specific OS or hardware constraints.  
 
-    다른 타겟의 예시
-    x86_64-unknown-linux-gnu: x86 아키텍처의 64비트 환경을 대상으로 하며, 특정 벤더에 한정되지 않는다. Linux 운영체제와 GNU C 라이브러리(glibc)가 필요하며, 리눅스 C 코드를 컴파일할 때 사용하는 표준적인 타겟이다.
-    aarch64-apple-darwin: aarch64(Apple Silicon) 아키텍처를 대상으로 하며, Apple 기기 및 Darwin OS/런타임에 종속적임을 의미한다.
+    Examples of Other Targets  
+    x86_64-unknown-linux-gnu: Targets the 64-bit environment of the x86 architecture and is not limited to a specific vendor. It requires the Linux operating system and the GNU C library (glibc). This is the standard target used when compiling Linux C code.  
+    aarch64-apple-darwin: Targets the aarch64 (Apple Silicon) architecture and is dependent on Apple devices and the Darwin OS/runtime.  
   ```
 
-  `wasm32-unknown-unknown` 타깃 설치하기
+  Installing `wasm32-unknown-unknown` build target  
     
   ```shell
     > rustup target add wasm32-unknown-unknown
   ```
-
-  설치를 마쳤다면, 다시 한번 `rustc --print target-list` 명령을 실행하여 `wasm32-unknown-unknown` 타깃이 목록에 정상적으로 추가되었는지 확인한다.
+  Once the installation is complete, run the `rustc --print target-list` command again to verify that the `wasm32-unknown-unknown` target has been successfully added to the list.
     
-### 2. Hello World 코드
+### 2. Code Hello World 
 
   Cargo를 이용한 hello-world 프로젝트 생성  
   ```shell
