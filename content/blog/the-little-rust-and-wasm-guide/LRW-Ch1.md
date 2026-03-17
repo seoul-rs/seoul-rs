@@ -1,16 +1,16 @@
 +++
-title = "Build your first WASM"
+title = "[WIP][LRW] 1. Build your first WASM"
 date = "2026-03-15"
 [taxonomies]
 authors = ["Seungjin Kim"]
 tags = ["wasm", "rust"]
 +++
 
-## 1. 무작정 WASM file 만들어 보기
+## 1. Code First
 
-거두절미하고 직접 WASM 파일을 만들어 보자.
+A wise man once said, ‘Talk is cheap. Show me the code.’ Now let’s make your WASM file first.
 
-### 1. Rust 컴파일러 WASM 빌드 지원 확인
+### 1. Check your Rust compiler can handle WASM build
   ```shell
         ❯ rustc --print target-list | grep wasm
         wasm32-unknown-emscripten
