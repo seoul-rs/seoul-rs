@@ -389,11 +389,11 @@ tags = ["wasm", "rust"]
   </html>
   ```
 
-
-
   **브라우저 결과**  
   ![브라우저 결과](/images/blog/the-little-rust-and-wasm-guide/ch3-weather-result.png)
-  
+
+---
+Another fun thing?: [Raw API bindings for Web APIs](https://docs.rs/web-sys/latest/web_sys/)
 
 
 

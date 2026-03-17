@@ -14,9 +14,10 @@ tags = ["wasm", "rust"]
   2.1 WASM의 등장  
   2.2 WASI - 브라우저 밖으로 나온 WASM  
 3. [세상속으로 나온 WASM (Feat 웹브라우저)](../lrw-ch3)  
-  3.1 wasm-bindgen  
-  3.1 wasm-pack  
-  3.3 wasm_bindgen_futures
+  3.1 [wasm-bindgen](../lrw-ch3/#1-wasm-bindgen)  
+  3.1 [wasm-pack](../lrw-ch3/#2-wasm-pack)  
+  3.3 [wasm_bindgen_futures](../lrw-ch3/#3-wasm-bindgen-futures)  
+  3.4 More crates  
 4. [WASI 이야기; 브라우저를 뛰쳐나온 WASM](../lrw-ch4)  
   4.1 Wasmtime  
   4.2 Wasmer  
