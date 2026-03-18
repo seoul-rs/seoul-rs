@@ -48,14 +48,15 @@ Keep Calm and Code On.
     
 ### 2. Code Hello World 
 
-  Cargo를 이용한 hello-world 프로젝트 생성  
+  Creating a hello-world project using Cargo  
   ```shell
        ❯ cargo new --lib hello-world
        Creating library `hello-world` package
        note: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
   ```
 
-  `cargo new hello-wasm --lib` 명령어로 생성된 프로젝트의 디렉터리 구조는 다음과 같다.  
+  The command `cargo new hello-wasm --lib` creates the following directory structure:   
+  
   ```shell
     ❯ eza --tree hello-world
     hello-world
@@ -65,18 +66,17 @@ Keep Calm and Code On.
   ```
 
   ```text
-  `eza`가 모죠?
-  eza는 기존의 ls 명령어를 현대적으로 재해석하여 대체하기 위한 도구이다. Rust 언어로 작성되어 매우 빠른 속도를 자랑하며, 사용자에게 더 직관적이고 풍부한 정보를 제공한다. 공식 웹사이트인 eza.rocks에서 더 자세한 정보를 확인할 수 있다.
+  What is `eza`?
+  eza는 기존의 ls 명령어를 현대적으로 재해석하여 대체하기 위한 도구이다. Rust 언어로 작성되어 매우 빠른 속도를 자랑하며, 사용자에게 더 직관적이고 풍부한 정보를 제공한다. You can find more at eza.rocks(https://eza.rocks) site.
   ```
 
-  WASM 바이너리를 생성하기 위해서는 Cargo.toml 파일에 [lib] 섹션을 추가하고, crate-type을 설정해야 한다.  
+  Generating a WASM binary requires adding a [lib] section and configuring the crate-type in Cargo.toml.  
   ```toml
   [lib]
   crate-type = ["cdylib"]
   ```
-
   
-  완성된 Cargo.toml
+  Completed `Cargo.toml`    
   ```toml
   [package]
   name = "hello-world"
@@ -89,34 +89,35 @@ Keep Calm and Code On.
   [dependencies]
   ```
   
-  
-
-  아래와 같이 `src/lib.rs`를 작성한다.  
+  Write the contents of `src/lib.rs` as follows:  
   ```rust
   pub fn hello_world() -> &'static str' {
     "Hello World"
   }
   ```
 
-### 3. 컴파일하기
+### 3.Compiling
 
-  `cargo build`로 `wasm` 파일 빌드  
+  `wasm` file build with `cargo build`
+
   ```shell
   ❯ cargo build --target wasm32-unknown-unknown --release
     Finished `release` profile [optimized] target(s) in 0.01s  
   ```
-  `target/wasm32-uknown-unkown/release` 폴더에서 `hello_world.wasm` 파일을 확인해본다.
+
+  The `hello_world.wasm` file can now be found in the `target/wasm32-unknown-unknown/release` folder.  
 
   ```shell
   ❯ file target/wasm32-unknown-unknown/release/hello_world.wasm
   target/wasm32-unknown-unknown/release/hello_world.wasm: WebAssembly (wasm) binary module version 0x1 (MVP)
   ```
 
-아주 간단한 Rust 코드를 통해 `hello_world.wasm` 파일을 생성해 보았다. `file` 명령어를 사용하여 해당 파일을 확인하면 `WebAssembly (wasm) binary`라는 결과를 얻을 수 있다.
+  We have successfully created a `hello_world.wasm` file using a very simple Rust code. Running the `file` command on it confirms that it is indeed a WebAssembly (wasm) binary.  
 
-이제 이 `.wasm` 파일을 어떻게 실행하고 활용할 수 있는지 궁금할 것이다. 이에 대해서는 다른 언어들과 달리 이야기할 거리가 아주 많다. 여기서부터가 진정한 WebAssembly의 세계로 들어가는 시작이기 때문이다.
+  Now, you might be wondering how to execute and utilize this `.wasm file`. Unlike other languages, there is quite a lot to discuss here. This is where the true journey into the world of WebAssembly begins.  
 
-다음 글에서는 우리가 만든 이 WASM 파일의 실체가 무엇인지, 그리고 어떤 환경에서 어떻게 실행할 수 있는지에 대해 자세히 알아보도록 하겠다.
+  In the next post, we will take a closer look at what this WASM file actually is and how it can be executed in various environments.    
+
 
 
 

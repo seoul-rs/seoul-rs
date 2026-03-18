@@ -18,13 +18,19 @@ This is a series of blog posts originally written in Korean for [The Little Rust
 3. [WASM Meets the Web (feat. Web Browsers)](../lrw-ch2)  
   3.1 wasm-pack  
   3.2 wasm-bindgen  
-  3.3 wasm_bindgen_futures  
+  3.3 wasm_bindgen_futures
+  3.4 web_sys
 4. [The Story of WASI: WASM Beyond the Browser](../lrw-ch2)  
   4.1 Wasmtime  
   4.2 Wasmer  
-  4.3 Spinframework  
-  4.4 FaaS(Function as a Service) and WASM  
-  4.5 Container and WASM  
+  4.3 WasmEdge  
+  4.5 Spinframework    
+  4.6 FaaS(Function as a Service) and WASM  
+  4.7 Container and WASM  
+5. Cookbook  
+  5.1 WebSocket Client on Browser  
+  5.2 Rss Feeder in Spinframework  
+  5.3 ActivityPub in WASI  
+  5.4 ActivityPub in Browser  
+  5.5 Graphics  
 
----
-[All chapters: seoul.rs/blog/the-little-rust-and-wasm](/blog/the-little-rust-and-wasm-guide)

@@ -17,13 +17,19 @@ tags = ["wasm", "rust"]
   3.1 [wasm-bindgen](../lrw-ch3/#1-wasm-bindgen)  
   3.1 [wasm-pack](../lrw-ch3/#2-wasm-pack)  
   3.3 [wasm_bindgen_futures](../lrw-ch3/#3-wasm-bindgen-futures)  
-  3.4 More crates  
+  3.4 [web_sys](../lrw-ch3.4)  
+  3.5 [js_sys](../lrw-ch3.5)  
 4. [WASI 이야기; 브라우저를 뛰쳐나온 WASM](../lrw-ch4)  
   4.1 Wasmtime  
   4.2 Wasmer  
-  4.3 Spinframework  
-  4.4 FaaS(Function as a Service) and WASM  
-  4.5 Container and WASM  
+  4.3 WasmEdge  
+  4.4 Spinframework    
+  4.5 FaaS(Function as a Service) and WASM  
+  4.6 Container and WASM  
+5. Cookbook  
+  5.1 WebSocket Client on Browser  
+  5.2 Rss Feeder in Spinframework  
+  5.3 ActivityPub in WASI  
+  5.4 ActivityPub in Browser  
+  5.5 Graphics  
 
----
-[모아보기](/blog/the-little-rust-and-wasm-guide)
