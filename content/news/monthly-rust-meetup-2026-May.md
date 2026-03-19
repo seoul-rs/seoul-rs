@@ -10,7 +10,7 @@ Meetup location and details: [Meetup.com page](https://www.meetup.com/rust-seoul
 This meetup is held in English. 
 
 This Month's talk
-- Making Matrix conversations searchable with AI (Zeeshan Lakhani)
+- [Chat History the Database the Search Engine the TUI the CLI the Local-First Matrix Archiver in Rust (Zeeshan Lakhani)](https://gist.github.com/zeeshanlakhani/40876902bf77e081ed8d718b4f8088d3)  
 - Continuously Deploying Rust servers to production without rebuilding the universe (Charles Jonhson)
 
 
