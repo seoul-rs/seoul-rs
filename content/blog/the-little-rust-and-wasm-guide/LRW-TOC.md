@@ -9,9 +9,9 @@ tags = ["wasm", "rust"]
 This is a series of blog posts originally written in Korean for [The Little Rust and WASM Guide](/ko/blog/the-little-rust-and-wasm-guide/).  
 
 1. [Diving Headfirst into Creating a WASM File](../lrw-ch1)  
-  1.1 Rust Compiler: Are your Cargo ready?(../lrw-ch1/#1-check-your-rust-compiler-can-handle-wasm-build)    
-  1.2 Code 'Hello World'(../lrw-ch1/#2-code-hello-world)  
-  1.3 Compiling to Wasm(../lrw-ch1/#3-compiling)  
+  1.1 [Rust Compiler: Are your Cargo ready?](../lrw-ch1/#1-check-your-rust-compiler-can-handle-wasm-build)    
+  1.2 [Code 'Hello World'](../lrw-ch1/#2-code-hello-world)  
+  1.3 [Compiling to Wasm](../lrw-ch1/#3-compiling)  
 2. [What is WASM?](../lrw-ch2)  
   2.1 WASM, First Appearance  
   2.3 WASI - Wasm Beyond the Browser  

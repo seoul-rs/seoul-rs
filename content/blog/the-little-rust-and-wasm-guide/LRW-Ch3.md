@@ -303,7 +303,7 @@ tags = ["wasm", "rust"]
 
 ### 3. wasm_bindgen_futures
 
-  [wasm_bindgen_futures](https://docs.rs/wasm-bindgen-futures)) bridges the gap between JavaScript Promises and Rust Futures.  
+  [wasm_bindgen_futures](https://docs.rs/wasm-bindgen-futures) bridges the gap between JavaScript Promises and Rust Futures.  
 
   To demonstrate this, let's build an example that fetches the current temperatures of Seoul, New York, and Berlin using the **reqwest** crate and the Open-Meteo API, then displays them in the browser."
 
