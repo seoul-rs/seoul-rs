@@ -42,4 +42,4 @@ Matrix에서 채팅을 할 수 있게 해주는 [다양한 앱](https://matrix.o
 
 ---
 원본: [https://seoul.rs/news/find-us-on-matrix/](https://seoul.rs/news/find-us-on-matrix/)  
-LLM(Google Gemini)은 도움을 받아 @seungjin의 의해 한글로 번역된 글입니다.  
+LLM(Google Gemini)의 도움을 받아 @seungjin의 의해 한글로 번역된 글입니다.  
