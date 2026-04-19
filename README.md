@@ -4,6 +4,7 @@
 
 1. Write your article in Markdown format with the following heading.  
 ```
+$ cd content/blog
 $ cat john-smith-first-blog.md
 +++
 title = "John Smith's first blog"
