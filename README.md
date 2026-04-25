@@ -31,3 +31,8 @@ Either install zola by one of [these methods](https://www.getzola.org/documentat
 ```
 
 or run `docker compose up`
+
+## PR (Pull Request) and Merge Rules
+- To merge code, approval from one or more members is required
+- The approver may proceed unless they believe the change would benefit from additional review by others.
+- https://github.com/seoul-rs/seoul-rs/pull/29#issuecomment-4275004925
