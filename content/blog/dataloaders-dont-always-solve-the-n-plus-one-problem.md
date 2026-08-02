@@ -218,6 +218,7 @@ Whilst `dataloader` generally batches database queries as intended
 and reduces request latencies,
 I've observed suboptimal batching behaviours with batch sizes of just 2 or 3 keys
 even when setting the maximum batch size much higher.
+I wasn't the only one as it has been discussed in this [Github issue](https://github.com/cksac/dataloader-rs/issues/12).
 `dataloader` relies on the async runtime's `yield_now` function (e.g. [for tokio](https://docs.rs/tokio/latest/tokio/task/fn.yield_now.html)) to wait until other previously scheduled tasks have completed until running the batched database query.
 The problem I ran into was not all keys were scheduled to be loaded before the first key start to load.
 This caused several batched queries to be executed instead of one,
