@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Dataloaders don't always solve the N+1 problem"
-date = "2026-07-26"
+date = "2026-08-02"
 [taxonomies]
 authors = ["Charles Johnson"]
 tags = ["rust", "dataloader", "GraphQL"]
