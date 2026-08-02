@@ -229,7 +229,7 @@ I decided to scrap using the `dataloader` crate
 and use a mutex instead
 to minimise the database queries
 in a more predictable way.
-This greatly reduce the request latency
+This greatly reduced the request latency
 but I had to be careful to avoid deadlocks.
 
 [This](https://github.com/Charles-Johnson/damogo-graphql/commit/f91944cc959d09978f4dc020f4ec359f28df66de) is the first commit that delivered the performance improvements which encouraged me to remove other dataloaders in a [subsequent commit](https://github.com/Charles-Johnson/damogo-graphql/commit/79f193c0bf630b5f865eb35a461133d67076c1ea).
